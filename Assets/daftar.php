@@ -11,7 +11,7 @@
             src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
         </iframe>
     </center>
-    <center><a href="pendaftaran.php" class="btn btn-primary">Kembali</a></center>
+    <center><a href="/index.php" class="btn btn-primary">Kembali</a></center>
     <script>
         function validateForm() {
             if (document.forms["formPendaftaran"]["nama"].value == "") {
