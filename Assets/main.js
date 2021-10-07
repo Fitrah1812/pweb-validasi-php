@@ -20,11 +20,6 @@ function validateForm() {
         return false;
     }
     if (document.forms["formPendaftaran"]["vaksin"].selectedIndex < 1) {
-        alert("Pilih Jurusan.");
-        document.forms["formPendaftaran"]["vaksin"].focus();
-        return false;
-    }
-    if (document.forms["formPendaftaran"]["vaksin"].selectedIndex < 1) {
         alert("Pilih Status Vaksin.");
         document.forms["formPendaftaran"]["vaksin"].focus();
         return false;
